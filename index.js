@@ -185,7 +185,7 @@ class Airplane {
      }
 
      listSubjects() {
-       return this.favSubjects;
+       return `Loving ${this.favSubjects.toString()}`;
      }
 
      PRAssignment(subject) {
